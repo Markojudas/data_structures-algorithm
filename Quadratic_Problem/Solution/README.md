@@ -1,4 +1,6 @@
-#   A Linear Solution
+# A Linear Solution
+
+<!-- markdownlint-disable -->
 
 This solution does not require nested loop. It creates a <em>helper</em> empty slice then loops to check each number (in this example the number has to be
 between 0 to 249, hence the size given to the make() funnction) in the array. Each number value represents the index on the helper slice. As it encounter each number
@@ -7,4 +9,4 @@ arbitrary value (1) to the index, if we have, meaning the index value is not 0, 
 
 Worst Case: O(N) since we are just comparing all the values of the array once.
 
-Drawback: We have increased the memory the program takes by creating a new structure. 
+Drawback: We have increased the memory the program takes by creating a new structure.
